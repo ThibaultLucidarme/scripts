@@ -1,0 +1,53 @@
+In order to set up networking after the Ubuntu netinstaller, run 'sudo nano /etc/network/interfaces'.
+
+
+If you want a basic DHCP ethernet connection, add this:
+
+auto eth0
+iface eth0 inet dhcp
+
+Then press Ctrl + X and run 'sudo ifup eth0'.
+
+
+Using WiFi? Add this:
+
+auto wlan0
+iface wlan0 inet dhcp
+	wpa-ssid Your Network SSID
+	wpa-psk  Your Network Passphrase
+
+Then press Ctrl + X and run 'sudo ifup wlan0'.
+
+
+
+Want to use static IPs?
+
+
+For ethernet:
+
+auto eth0
+iface eth0 inet static
+	address 192.168.?.?
+	netmask 255.255.255.0
+	gateway 192.168.?.?
+	dns-nameservers ?.?.?.? ?.?.?.?
+
+Then press Ctrl + X and run 'sudo ifup eth0'.
+
+
+For WiFi:
+
+auto wlan0
+iface wlan0 inet static
+	wpa-ssid Your Network SSID
+	wpa-psk  Your Network Passphrase
+	address 192.168.?.?
+	netmask 255.255.255.0
+	gateway 192.168.?.?
+	dns-nameservers ?.?.?.? ?.?.?.?
+
+Then press Ctrl + X and run 'sudo ifup wlan0'.
+
+
+Once the script is done, it will clear these settings in order for
+NetworkManager to take over after the reboot.
