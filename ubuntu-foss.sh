@@ -57,9 +57,9 @@ apt-get install -y cups cups-pk-helper cups-browsed foomatic-db-compressed-ppds 
 apt-get install -y brasero brasero-cdrkit ffmpegthumbnailer gstreamer1.0-alsa gstreamer1.0-libav gstreamer1.0-plugins-good gstreamer1.0-plugins-ugly gstreamer1.0-pulseaudio pulseaudio pulseaudio-module-bluetooth pulseaudio-module-x11 pulseaudio-utils vlc vlc-plugin-notify vlc-plugin-pulse
 
 
-# Install browser and e-mail
+# Install browser, e-mail, and chat
 
-apt-get install -y firefox thunderbird thunderbird-gnome-support
+apt-get install -y firefox pidgin thunderbird thunderbird-gnome-support
 
 
 # Install LibreOffice
