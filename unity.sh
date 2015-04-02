@@ -1,6 +1,7 @@
 #!/bin/sh
 
 # This script will convert a Xubuntu install to a Unity install
+# Run from a TTY!
 
 
 # Fix broken updates, if any
