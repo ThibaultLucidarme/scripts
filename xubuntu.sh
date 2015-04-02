@@ -53,7 +53,7 @@ apt-get install -y gstreamer1.0-alsa gstreamer1.0-libav gstreamer1.0-plugins-ugl
 
 # Install browser, e-mail, and chat
 
-apt-get install -y firefox pidgin thunderbird
+apt-get install -y firefox pidgin thunderbird xul-ext-lightning
 
 
 # Install multimedia
@@ -76,14 +76,9 @@ apt-get install -y libreoffice-avmedia-backend-gstreamer libreoffice-calc libreo
 apt-get install -y calibre gimp shotwell
 
 
-# Install networking stuff
-
-apt-get install -y modemmanager network-manager-pptp-gnome rfkill
-
-
 # Install language packs
 
-apt-get install -y firefox-locale-nl language-pack-gnome-nl libreoffice-l10n-nl myspell-de-de myspell-en-us myspell-fr myspell-nl thunderbird-locale-nl
+apt-get install -y firefox-locale-nl language-pack-gnome-nl libreoffice-l10n-nl myspell-de-de myspell-en-us myspell-fr myspell-nl network-manager-pptp-gnome thunderbird-locale-nl
 
 
 # Update locales
@@ -101,6 +96,14 @@ apt-get clean
 # Purge all remaining configuration files
 
 dpkg -l | grep  ^rc | awk '{print $2}' | xargs dpkg --purge remove
+
+
+# Disable guest session
+
+mkdir /etc/lightdm/lightdm.conf.d/
+
+echo "[SeatDefaults]
+allow-guest=false" > /etc/lightdm/lightdm.conf.d/20-guest.conf
 
 
 # Clear the network interfaces
