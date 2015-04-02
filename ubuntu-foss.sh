@@ -59,7 +59,7 @@ apt-get install -y brasero brasero-cdrkit ffmpegthumbnailer gstreamer1.0-alsa gs
 
 # Install browser, e-mail, and chat
 
-apt-get install -y firefox pidgin thunderbird thunderbird-gnome-support
+apt-get install -y firefox pidgin thunderbird thunderbird-gnome-support xul-ext-lightning
 
 
 # Install LibreOffice
