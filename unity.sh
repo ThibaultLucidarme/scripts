@@ -4,7 +4,7 @@
 # Run from a TTY!
 
 
-# Fix broken updates, if any
+# Fix broken packages, if any
 
 sudo apt-get install -f
 sudo dpkg --configure -a
