@@ -73,7 +73,7 @@ apt-get install -y libreoffice-avmedia-backend-gstreamer libreoffice-calc libreo
 
 # Install graphical tools
 
-apt-get install -y calibre gimp openshot shotwell
+apt-get install -y calibre gimp shotwell
 
 
 # Install networking stuff
