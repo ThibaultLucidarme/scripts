@@ -18,7 +18,7 @@ apt-get dist-upgrade -y
 
 # Install the base system
 
-apt-get install -y acpi-support alsa-base avahi-autoipd avahi-daemon avahi-utils grub-pc linux-image-generic network-manager pm-utils ubuntu-minimal ubuntu-standard x11-xserver-utils xserver-xorg xserver-xorg-core xserver-xorg-input-evdev xserver-xorg-input-synaptics xserver-xorg-input-wacom xserver-xorg-video-ati xserver-xorg-video-fbdev xserver-xorg-video-intel xserver-xorg-video-modesetting xserver-xorg-video-nouveau xserver-xorg-video-vesa
+apt-get install -y acpi-support alsa-base apparmor apparmor-profiles apparmor-utils avahi-autoipd avahi-daemon avahi-utils grub-pc linux-image-generic network-manager pm-utils ubuntu-minimal ubuntu-standard x11-xserver-utils xserver-xorg xserver-xorg-core xserver-xorg-input-evdev xserver-xorg-input-synaptics xserver-xorg-input-wacom xserver-xorg-video-ati xserver-xorg-video-fbdev xserver-xorg-video-intel xserver-xorg-video-modesetting xserver-xorg-video-nouveau xserver-xorg-video-vesa
 
 
 # Install Unity
