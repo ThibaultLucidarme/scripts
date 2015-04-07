@@ -19,19 +19,19 @@ apt-get dist-upgrade -y
 
 
 # Install the base system
-apt-get install -y acpi-support alsa-base alsa-utils anacron apparmor apparmor-profiles apparmor-utils avahi-autoipd avahi-daemon avahi-utils bash bash-completion coreutils friendly-recovery grub-pc irqbalance libnss-mdns libpam-cap linux-image-generic manpages mlocate nano network-manager openssh-server pm-utils ubuntu-keyring ubuntu-minimal ubuntu-standard wireless-tools x11-xserver-utils xserver-xorg xserver-xorg-core xserver-xorg-input-evdev xserver-xorg-video-fbdev xserver-xorg-video-intel xserver-xorg-video-modesetting xserver-xorg-video-vesa
+apt-get install -y alsa-base alsa-utils anacron apparmor apparmor-profiles apparmor-utils avahi-autoipd avahi-daemon avahi-utils bash bash-completion coreutils friendly-recovery grub-pc irqbalance libnss-mdns libpam-cap linux-image-generic manpages mlocate nano network-manager openssh-server pm-utils ubuntu-keyring ubuntu-minimal ubuntu-standard wireless-tools x11-xserver-utils xserver-xorg xserver-xorg-core xserver-xorg-input-evdev xserver-xorg-video-fbdev xserver-xorg-video-intel xserver-xorg-video-modesetting xserver-xorg-video-vesa
 
 
 # Install Unity
-apt-get install -y activity-log-manager appmenu-qt appmenu-qt5 compizconfig-settings-manager dmz-cursor-theme hud indicator-application indicator-appmenu indicator-messages indicator-printers indicator-session language-selector-gnome light-themes lightdm notify-osd notify-osd-icons overlay-scrollbar plymouth-theme-ubuntu-logo sni-qt ubuntu-docs ubuntu-mono ubuntu-session ubuntu-settings ubuntu-wallpapers unity unity-control-center unity-greeter unity-gtk2-module unity-gtk3-module unity-lens-applications unity-lens-files unity-settings-daemon zeitgeist
+apt-get install -y activity-log-manager appmenu-qt appmenu-qt5 compizconfig-settings-manager dmz-cursor-theme hud indicator-application indicator-appmenu indicator-messages indicator-printers indicator-session language-selector-gnome light-themes lightdm notify-osd notify-osd-icons overlay-scrollbar plymouth-theme-ubuntu-logo sni-qt ubuntu-docs ubuntu-mono ubuntu-session ubuntu-settings ubuntu-wallpapers unity unity-control-center unity-greeter unity-gtk2-module unity-gtk3-module unity-lens-applications unity-lens-files unity-settings-daemon
 
 
 # Install GNOME applications
-apt-get install -y dconf-editor eog evince file-roller gedit gedit-plugins gnome-calculator gnome-font-viewer gnome-icon-theme-full gnome-keyring gnome-power-manager gnome-screenshot gnome-system-monitor gnome-terminal gnome-user-guide gucharmap gvfs-backends gvfs-fuse libgnome2-bin libgsf-bin libgtk2-perl libpam-gnome-keyring mesa-utils nautilus nautilus-open-terminal network-manager-gnome policykit-desktop-privileges seahorse ssh-askpass-gnome xdg-user-dirs
+apt-get install -y dconf-editor eog evince gedit gedit-plugins gnome-calculator gnome-icon-theme-full gnome-keyring gnome-power-manager gnome-screenshot gnome-system-monitor gnome-terminal gnome-user-guide gvfs-backends gvfs-fuse libgnome2-bin libgsf-bin libgtk2-perl libpam-gnome-keyring mesa-utils nautilus nautilus-open-terminal network-manager-gnome policykit-desktop-privileges seahorse ssh-askpass-gnome xdg-user-dirs
 
 
 # Install fonts
-apt-get install -y fonts-cantarell fonts-croscore fonts-crosextra-caladea fonts-crosextra-carlito fonts-droid fonts-dustin gsfonts-x11 ttf-ancient-fonts ttf-ubuntu-font-family xfonts-base
+apt-get install -y fonts-cantarell fonts-croscore fonts-crosextra-caladea fonts-crosextra-carlito fonts-droid fonts-dustin gnome-font-viewer gsfonts-x11 gucharmap ttf-ancient-fonts ttf-ubuntu-font-family xfonts-base
 
 
 # Install package management
@@ -39,7 +39,7 @@ apt-get install -y apt-xapian-index gdebi-core git software-properties-gtk synap
 
 
 # Install file/disk tools
-apt-get install -y baobab btrfs-tools easytag exfat-fuse exfat-utils gdisk gnome-disk-utility gparted gprename iotop mat ntfs-3g preload unetbootin
+apt-get install -y baobab btrfs-tools bzip2 easytag exfat-fuse exfat-utils file-roller gdisk gnome-disk-utility gparted gprename gzip iotop mat ntfs-3g preload tar unetbootin unzip zip
 
 
 # Install Python
@@ -59,7 +59,7 @@ apt-get install -y chromium-browser curl enigmail firefox gajim iftop nethogs nm
 
 
 # Install multimedia
-apt-get install -y aqualung asunder audacity brasero brasero-cdrkit dvdauthor dvdstyler dvgrab ffmpegthumbnailer flac frei0r-plugins handbrake handbrake-cli kdenlive libav-tools swh-plugins tap-plugins vlc vlc-plugin-notify vlc-plugin-pulse vorbis-tools
+apt-get install -y aqualung asunder audacity brasero brasero-cdrkit cdrdao dvdauthor dvdstyler dvgrab ffmpegthumbnailer flac frei0r-plugins handbrake handbrake-cli kdenlive libav-tools swh-plugins tap-plugins vlc vlc-plugin-notify vlc-plugin-pulse vorbis-tools
 /usr/share/doc/libdvdread4/install-css.sh
 
 
