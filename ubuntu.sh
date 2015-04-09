@@ -53,7 +53,7 @@ apt-get install -y gstreamer1.0-alsa gstreamer1.0-libav gstreamer1.0-plugins-ugl
 
 # Install browser, e-mail, and chat
 
-apt-get install -y firefox pidgin thunderbird thunderbird-gnome-support xul-ext-lightning
+apt-get install -y chromium-browser firefox pidgin thunderbird thunderbird-gnome-support xul-ext-lightning
 
 
 # Install multimedia
@@ -78,7 +78,7 @@ apt-get install -y calibre gimp shotwell
 
 # Install language packs
 
-apt-get install -y firefox-locale-nl language-pack-gnome-nl libreoffice-l10n-nl myspell-de-de myspell-en-us myspell-fr myspell-nl thunderbird-locale-nl
+apt-get install -y chromium-browser-l10n firefox-locale-nl language-pack-gnome-nl libreoffice-l10n-nl myspell-de-de myspell-en-us myspell-fr myspell-nl thunderbird-locale-nl
 
 
 # Install games
