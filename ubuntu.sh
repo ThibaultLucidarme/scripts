@@ -51,7 +51,7 @@ apt-get install -y cups foomatic-db-compressed-ppds foomatic-db-engine hplip ope
 apt-get install -y gstreamer1.0-alsa gstreamer1.0-libav gstreamer1.0-plugins-ugly gstreamer1.0-pulseaudio pulseaudio pulseaudio-module-bluetooth
 
 
-# Install browser, e-mail, and chat
+# Install browsers, e-mail, and chat
 
 apt-get install -y chromium-browser firefox pidgin thunderbird thunderbird-gnome-support xul-ext-lightning
 
