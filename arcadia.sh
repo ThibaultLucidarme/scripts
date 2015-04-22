@@ -39,7 +39,7 @@ apt-get install -y apt-xapian-index gdebi-core git software-properties-gtk synap
 
 
 # Install file/disk tools
-apt-get install -y baobab btrfs-tools bzip2 exfat-fuse exfat-utils file-roller gdisk gnome-disk-utility gparted gprename gzip iotop mat ntfs-3g preload tar unetbootin unzip zip
+apt-get install -y baobab btrfs-tools bzip2 exfat-fuse exfat-utils file-roller gdisk gnome-disk-utility gparted gprename gzip iotop ntfs-3g preload tar unetbootin unzip zip
 
 
 # Install Python
@@ -59,7 +59,8 @@ apt-get install -y chromium-browser curl enigmail firefox gajim iftop nethogs nm
 
 
 # Install multimedia
-apt-get install -y aqualung asunder audacity brasero brasero-cdrkit cdrdao dvdauthor dvdstyler dvgrab easytag ffmpegthumbnailer flac frei0r-plugins handbrake handbrake-cli kdenlive libav-tools swh-plugins tap-plugins vlc vlc-plugin-notify vlc-plugin-pulse vorbis-tools
+apt-get install -y aqualung asunder audacity brasero brasero-cdrkit cdrdao dvdauthor dvgrab easytag ffmpegthumbnailer flac frei0r-plugins handbrake handbrake-cli kdenlive libav-tools swh-plugins tap-plugins vlc vlc-plugin-notify vlc-plugin-pulse vorbis-tools
+
 /usr/share/doc/libdvdread4/install-css.sh
 
 
@@ -70,11 +71,7 @@ apt-get install -y libreoffice-avmedia-backend-gstreamer libreoffice-calc libreo
 
 
 # Install graphical tools
-apt-get install -y blender calibre darktable dia-gnome dia-shapes gimp gimp-data-extras icc-profiles-free imagemagick inkscape krita perlmagick
-
-
-# Install LaTeX and Scribus
-apt-get install -y latexila lmodern lyx scribus scribus-template texlive texmaker
+apt-get install -y blender calibre darktable gimp gimp-data-extras icc-profiles-free imagemagick inkscape krita perlmagick scribus scribus-template
 
 
 # Install Usenet
