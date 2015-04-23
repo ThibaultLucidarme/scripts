@@ -3,6 +3,7 @@
 # Log in as the LightDM user account
 sudo xhost +SI:localuser:lightdm
 sudo su lightdm -s /bin/bash
+export $(dbus-launch)
 
 # Disable NetworkManager popups
 gsettings set org.gnome.nm-applet disable-connected-notifications true
