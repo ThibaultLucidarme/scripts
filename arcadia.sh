@@ -39,7 +39,7 @@ apt-get install -y apt-xapian-index gdebi-core git software-properties-gtk synap
 
 
 # Install file/disk tools
-apt-get install -y baobab btrfs-tools bzip2 exfat-fuse exfat-utils file-roller gdisk gnome-disk-utility gparted gprename gzip iotop ntfs-3g preload tar unetbootin unzip zip
+apt-get install -y baobab btrfs-tools bzip2 exfat-fuse exfat-utils file-roller gdisk gnome-disk-utility gparted gprename gzip iotop ntfs-3g preload tar tree unetbootin unzip zip
 
 
 # Install Python
