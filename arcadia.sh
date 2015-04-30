@@ -35,7 +35,7 @@ apt-get install -y fonts-cantarell fonts-croscore fonts-crosextra-caladea fonts-
 
 
 # Install package management
-apt-get install -y apt-xapian-index gdebi-core git software-properties-gtk synaptic update-manager update-notifier vrms
+apt-get install -y apt-xapian-index gdebi-core software-properties-gtk synaptic update-manager update-notifier vrms
 
 
 # Install file/disk tools
@@ -76,6 +76,10 @@ apt-get install -y blender calibre darktable gimp gimp-data-extras icc-profiles-
 
 # Install Usenet
 apt-get install -y nzbget par2 unrar
+
+
+# Install development packages
+apt-get install -y bison build-essential flex git m4
 
 
 # Install language packs
