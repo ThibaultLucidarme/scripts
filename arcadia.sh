@@ -47,7 +47,7 @@ apt-get install -y python-appindicator python-crypto python-gnomekeyring python-
 
 
 # Install printers and scanners
-apt-get install -y cups cups-browsed cups-pk-helper foomatic-db-compressed-ppds foomatic-db-engine openprinting-ppds simple-scan system-config-printer-gnome
+apt-get install -y cups cups-browsed cups-bsd cups-pk-helper enscript foomatic-db-compressed-ppds foomatic-db-engine openprinting-ppds simple-scan system-config-printer-gnome
 
 
 # Install audio
