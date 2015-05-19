@@ -49,7 +49,7 @@ apt-get install -y apt-xapian-index gdebi-core software-properties-gtk synaptic 
 
 # Install printers and scanners
 
-apt-get install -y cups cups-pk-helper cups-browsed foomatic-db-compressed-ppds foomatic-db-engine openprinting-ppds simple-scan system-config-printer-gnome system-config-printer-udev
+apt-get install -y cups cups-bsd cups-pk-helper cups-browsed foomatic-db-compressed-ppds foomatic-db-engine openprinting-ppds simple-scan system-config-printer-gnome system-config-printer-udev
 
 
 # Install multimedia
