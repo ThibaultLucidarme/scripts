@@ -19,7 +19,7 @@ apt-get dist-upgrade -y
 
 
 # Install the base system
-apt-get install -y alsa-base alsa-utils anacron apparmor apparmor-profiles apparmor-utils avahi-autoipd avahi-daemon avahi-utils bash bash-completion command-not-found coreutils friendly-recovery grub-pc irqbalance libnss-mdns libpam-cap linux-image-generic manpages mlocate nano network-manager openssh-server pm-utils ubuntu-keyring ubuntu-minimal ubuntu-standard wireless-tools x11-xserver-utils xserver-xorg xserver-xorg-core xserver-xorg-input-evdev xserver-xorg-video-fbdev xserver-xorg-video-intel xserver-xorg-video-vesa
+apt-get install -y alsa-base alsa-utils anacron apparmor apparmor-profiles apparmor-utils avahi-autoipd avahi-daemon avahi-utils bash bash-completion command-not-found coreutils friendly-recovery grub-pc iputils-arping iputils-ping irqbalance libnss-mdns libpam-cap linux-image-generic manpages mlocate nano network-manager openssh-server pm-utils ubuntu-keyring ubuntu-minimal ubuntu-standard wireless-tools x11-xserver-utils xserver-xorg xserver-xorg-core xserver-xorg-input-evdev xserver-xorg-video-fbdev xserver-xorg-video-intel xserver-xorg-video-vesa
 
 
 # Install Unity
