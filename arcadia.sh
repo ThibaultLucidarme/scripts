@@ -55,7 +55,7 @@ apt-get install -y gstreamer1.0-alsa gstreamer1.0-libav gstreamer1.0-plugins-goo
 
 
 # Install browsers, e-mail, chat, and web tools
-apt-get install -y chromium-browser curl enigmail firefox gajim iftop nethogs nmap owncloud-client owncloud-client-cmd quvi tcpdump thunderbird thunderbird-gnome-support wireshark xul-ext-lightning youtube-dl
+apt-get install -y chromium-browser curl enigmail firefox gajim iftop nethogs nmap owncloud-client owncloud-client-cmd quvi tcpdump thunderbird thunderbird-gnome-support traceroute wireshark youtube-dl
 
 
 # Install multimedia
