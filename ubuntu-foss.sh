@@ -82,6 +82,8 @@ dpkg -l | grep  ^rc | awk '{print $2}' | xargs dpkg --purge remove
 
 
 # Clear the network interfaces
-
-echo "auto lo
+echo "# This file describes the network interfaces available on your system
+# and how to activate them. For more information, see interfaces(5).
+# The loopback network interface
+auto lo
 iface lo inet loopback" > /etc/network/interfaces
