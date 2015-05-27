@@ -79,7 +79,7 @@ apt-get install -y firefox-locale-nl language-pack-gnome-nl libreoffice-l10n-nl 
 
 
 # Install hardware-specific tools
-apt-get install -y ecryptfs-utils i965-va-driver lm-sensors
+apt-get install -y ecryptfs-utils i965-va-driver lm-sensors xsensors
 
 
 # Install games
