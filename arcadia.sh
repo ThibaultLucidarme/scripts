@@ -27,7 +27,7 @@ apt-get install -y activity-log-manager appmenu-qt appmenu-qt5 compizconfig-sett
 
 
 # Install GNOME applications
-apt-get install -y dconf-editor eog evince gedit gedit-plugins gnome-calculator gnome-icon-theme-full gnome-keyring gnome-power-manager gnome-screenshot gnome-system-monitor gnome-terminal gnome-user-guide gvfs-backends gvfs-fuse libgnome2-bin libgsf-bin libgtk2-perl libpam-gnome-keyring mesa-utils nautilus nautilus-open-terminal network-manager-gnome policykit-desktop-privileges seahorse ssh-askpass-gnome xdg-user-dirs
+apt-get install -y dconf-editor eog evince gedit gedit-plugins gnome-calculator gnome-icon-theme-full gnome-keyring gnome-power-manager gnome-screenshot gnome-system-monitor gnome-terminal gnome-user-guide gvfs-backends gvfs-fuse libgnome2-bin libgsf-bin libgtk2-perl libgtkspell0 libpam-gnome-keyring mesa-utils nautilus nautilus-open-terminal network-manager-gnome policykit-desktop-privileges seahorse ssh-askpass-gnome xdg-user-dirs
 
 
 # Install fonts
@@ -82,12 +82,17 @@ apt-get install -y nzbget par2 unrar
 apt-get install -y bison build-essential flex git m4
 
 
+# Install KVM
+
+apt-get install libvirt-bin qemu-kvm
+
+
 # Install language packs
 apt-get install -y calligra-l10n-nl chromium-browser-l10n firefox-locale-nl kde-l10n-nl language-pack-gnome-nl libreoffice-l10n-nl myspell-de-de myspell-en-us myspell-fr myspell-nl thunderbird-locale-nl
 
 
 # Install hardware-specific tools
-apt-get install -y dvb-apps ecryptfs-utils i965-va-driver idle3-tools intel-microcode libvdpau-va-gl1 lm-sensors vlc-plugin-zvbi
+apt-get install -y dvb-apps ecryptfs-utils i965-va-driver idle3-tools intel-microcode libvdpau-va-gl1 lm-sensors vlc-plugin-zvbi xsensors
 
 
 # Update locales
