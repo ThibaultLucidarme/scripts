@@ -28,7 +28,7 @@ apt-get install -y activity-log-manager branding-ubuntu dmz-cursor-theme languag
 
 # Install GNOME applications
 
-apt-get install -y baobab dconf-editor eog evince file-roller gedit gnome-calculator gnome-disk-utility gnome-font-viewer gnome-keyring gnome-power-manager gnome-screenshot gnome-system-monitor gnome-terminal gnome-user-guide gucharmap libgnome2-bin libgsf-bin libgtk2-perl nautilus nautilus-open-terminal network-manager-gnome policykit-desktop-privileges seahorse ssh-askpass-gnome xdg-user-dirs
+apt-get install -y baobab dconf-editor eog evince file-roller gedit gnome-calculator gnome-disk-utility gnome-font-viewer gnome-keyring gnome-power-manager gnome-screenshot gnome-system-monitor gnome-terminal gnome-user-guide gucharmap libgnome2-bin libgsf-bin libgtk2-perl libxss1 nautilus nautilus-open-terminal network-manager-gnome policykit-desktop-privileges seahorse ssh-askpass-gnome xdg-user-dirs
 
 
 # Install fonts
