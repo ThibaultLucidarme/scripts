@@ -27,7 +27,7 @@ apt-get install -y activity-log-manager appmenu-qt appmenu-qt5 compizconfig-sett
 
 
 # Install GNOME applications
-apt-get install -y dconf-editor eog evince gedit gnome-calculator gnome-icon-theme-full gnome-keyring gnome-power-manager gnome-screenshot gnome-system-monitor gnome-terminal gnome-user-guide gvfs-backends gvfs-fuse libgnome2-bin libgsf-bin libgtk2-perl libgtkspell0 libpam-gnome-keyring mesa-utils nautilus nautilus-open-terminal network-manager-gnome policykit-desktop-privileges seahorse ssh-askpass-gnome xdg-user-dirs
+apt-get install -y dconf-editor eog evince gedit gnome-calculator gnome-icon-theme-full gnome-keyring gnome-power-manager gnome-screenshot gnome-system-monitor gnome-terminal gnome-user-guide gvfs-backends gvfs-fuse libgnome2-bin libgsf-bin libgtk2-perl libgtkspell0 libpam-gnome-keyring libxss1 mesa-utils nautilus nautilus-open-terminal network-manager-gnome policykit-desktop-privileges seahorse ssh-askpass-gnome xdg-user-dirs
 
 
 # Install fonts
