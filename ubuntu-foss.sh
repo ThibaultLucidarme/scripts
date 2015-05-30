@@ -34,7 +34,7 @@ apt-get install -y activity-log-manager appmenu-qt appmenu-qt5 dmz-cursor-theme 
 
 # Install GNOME applications
 
-apt-get install -y dconf-cli dconf-editor eog evince file-roller gedit gnome-calculator gnome-keyring gnome-power-manager gnome-screenshot gnome-system-monitor gnome-terminal gnome-user-guide gvfs-backends gvfs-fuse libgnome2-bin libgsf-bin libgtk2-perl libpam-gnome-keyring nautilus nautilus-open-terminal network-manager-gnome policykit-1-gnome policykit-desktop-privileges seahorse ssh-askpass-gnome xdg-user-dirs
+apt-get install -y dconf-cli dconf-editor eog evince file-roller gedit gnome-calculator gnome-keyring gnome-power-manager gnome-screenshot gnome-system-monitor gnome-terminal gnome-user-guide gvfs-backends gvfs-fuse libgnome2-bin libgsf-bin libgtk2-perl libpam-gnome-keyring libxss1 nautilus nautilus-open-terminal network-manager-gnome policykit-1-gnome policykit-desktop-privileges seahorse ssh-askpass-gnome xdg-user-dirs
 
 
 # Install fonts
