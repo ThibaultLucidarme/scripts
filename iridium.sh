@@ -79,7 +79,7 @@ apt-get install -y firefox-locale-nl language-pack-gnome-nl libreoffice-l10n-nl 
 
 
 # Install hardware-specific tools
-apt-get install -y ecryptfs-utils ethtool i965-va-driver lm-sensors powertop xsensors xserver-xorg-input-synaptics
+apt-get install -y ecryptfs-utils ethtool i965-va-driver lm-sensors powertop redshift-gtk xsensors xserver-xorg-input-synaptics
 
 
 # Install games
