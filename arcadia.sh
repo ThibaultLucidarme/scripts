@@ -92,7 +92,7 @@ apt-get install -y calligra-l10n-nl chromium-browser-l10n firefox-locale-nl kde-
 
 
 # Install hardware-specific tools
-apt-get install -y dvb-apps ecryptfs-utils i965-va-driver idle3-tools intel-microcode libvdpau-va-gl1 lm-sensors vlc-plugin-zvbi xsensors
+apt-get install -y dvb-apps ecryptfs-utils i965-va-driver idle3-tools intel-microcode libvdpau-va-gl1 lm-sensors redshift-gtk vlc-plugin-zvbi xsensors
 
 
 # Update locales
