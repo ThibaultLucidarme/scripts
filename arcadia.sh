@@ -35,7 +35,7 @@ apt-get install -y fonts-cantarell fonts-croscore fonts-crosextra-caladea fonts-
 
 
 # Install package management
-apt-get install -y apt-xapian-index gdebi-core software-properties-gtk synaptic update-manager update-notifier vrms
+apt-get install -y apt-xapian-index gdebi-core software-properties-gtk synaptic update-manager update-notifier
 
 
 # Install file/disk tools
@@ -55,7 +55,7 @@ apt-get install -y gstreamer1.0-alsa gstreamer1.0-libav gstreamer1.0-plugins-goo
 
 
 # Install browsers, e-mail, chat, and web tools
-apt-get install -y chromium-browser curl enigmail firefox gajim iftop nethogs nmap owncloud-client owncloud-client-cmd quvi tcpdump thunderbird thunderbird-gnome-support traceroute wireshark youtube-dl
+apt-get install -y chromium-browser curl enigmail firefox gajim iftop nethogs nmap owncloud-client owncloud-client-cmd quvi tcpdump thunderbird thunderbird-gnome-support traceroute youtube-dl
 
 
 # Install multimedia
@@ -71,7 +71,7 @@ apt-get install -y libreoffice-avmedia-backend-gstreamer libreoffice-calc libreo
 
 
 # Install graphical tools
-apt-get install -y blender calibre darktable gimp gimp-data-extras icc-profiles-free imagemagick inkscape krita perlmagick scribus scribus-template
+apt-get install -y blender calibre darktable gimp gimp-data-extras icc-profiles-free imagemagick inkscape kazam krita perlmagick scribus scribus-template
 
 
 # Install Usenet
@@ -79,12 +79,7 @@ apt-get install -y nzbget par2 unrar
 
 
 # Install development packages
-apt-get install -y bison build-essential flex git m4
-
-
-# Install KVM
-
-apt-get install libvirt-bin qemu-kvm
+apt-get install -y git
 
 
 # Install language packs
@@ -92,7 +87,7 @@ apt-get install -y calligra-l10n-nl chromium-browser-l10n firefox-locale-nl kde-
 
 
 # Install hardware-specific tools
-apt-get install -y dvb-apps ecryptfs-utils i965-va-driver idle3-tools intel-microcode libvdpau-va-gl1 lm-sensors redshift-gtk vlc-plugin-zvbi xsensors
+apt-get install -y dvb-apps ecryptfs-utils i965-va-driver idle3-tools intel-microcode libvdpau-va-gl1 lm-sensors redshift-gtk vlc-plugin-zvbi
 
 
 # Update locales
