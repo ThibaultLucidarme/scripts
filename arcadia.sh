@@ -19,7 +19,7 @@ apt-get dist-upgrade -y
 
 
 # Install the base system
-apt-get install -y alsa-base alsa-utils anacron apparmor apparmor-profiles apparmor-utils avahi-autoipd avahi-daemon avahi-utils bash bash-completion command-not-found coreutils friendly-recovery grub-pc iputils-arping iputils-ping irqbalance libnss-mdns libpam-cap linux-image-generic manpages mlocate nano network-manager openssh-server pm-utils ubuntu-keyring ubuntu-minimal ubuntu-standard wireless-tools x11-xserver-utils xserver-xorg xserver-xorg-core xserver-xorg-input-evdev xserver-xorg-video-fbdev xserver-xorg-video-intel xserver-xorg-video-vesa
+apt-get install -y alsa-base alsa-utils anacron apparmor apparmor-profiles apparmor-utils avahi-autoipd avahi-daemon avahi-utils bash bash-completion command-not-found coreutils friendly-recovery grub-pc irqbalance libnss-mdns libpam-cap linux-image-generic manpages mlocate nano network-manager openssh-server pm-utils ubuntu-keyring ubuntu-minimal ubuntu-standard wireless-tools x11-xserver-utils xserver-xorg xserver-xorg-core xserver-xorg-input-evdev xserver-xorg-video-fbdev xserver-xorg-video-intel xserver-xorg-video-vesa
 
 
 # Install Unity
@@ -54,12 +54,12 @@ apt-get install -y cups cups-browsed cups-bsd cups-pk-helper enscript foomatic-d
 apt-get install -y gstreamer1.0-alsa gstreamer1.0-libav gstreamer1.0-plugins-good gstreamer1.0-plugins-ugly gstreamer1.0-pulseaudio pulseaudio pulseaudio-module-bluetooth pulseaudio-module-x11 pulseaudio-utils rtkit
 
 
-# Install browsers, e-mail, chat, and web tools
-apt-get install -y curl dnsutils enigmail firefox gajim iftop nethogs nmap owncloud-client owncloud-client-cmd quvi tcpdump thunderbird thunderbird-gnome-support traceroute whois youtube-dl
+# Install browser, e-mail, chat, and web tools
+apt-get install -y curl dnsutils enigmail firefox gajim iftop iputils-arping iputils-ping nethogs nmap owncloud-client owncloud-client-cmd quvi tcpdump thunderbird thunderbird-gnome-support traceroute whois youtube-dl
 
 
 # Install multimedia
-apt-get install -y aqualung asunder audacity brasero brasero-cdrkit cdrdao dvdauthor dvgrab easytag ffmpegthumbnailer flac frei0r-plugins handbrake handbrake-cli kdenlive libav-tools swh-plugins tap-plugins vlc vlc-plugin-notify vlc-plugin-pulse vorbis-tools
+apt-get install -y aqualung asunder audacity brasero brasero-cdrkit cdrdao dvdauthor dvgrab easytag ffmpegthumbnailer flac frei0r-plugins handbrake handbrake-cli kdenlive libav-tools mpg321 swh-plugins tap-plugins vlc vlc-plugin-notify vlc-plugin-pulse vorbis-tools
 
 /usr/share/doc/libdvdread4/install-css.sh
 
@@ -83,7 +83,7 @@ apt-get install -y git
 
 
 # Install language packs
-apt-get install -y calligra-l10n-nl chromium-browser-l10n firefox-locale-nl kde-l10n-nl language-pack-gnome-nl libreoffice-l10n-nl myspell-de-de myspell-en-us myspell-fr myspell-nl thunderbird-locale-nl
+apt-get install -y calligra-l10n-nl firefox-locale-nl kde-l10n-nl language-pack-gnome-nl libreoffice-l10n-nl myspell-de-de myspell-en-us myspell-fr myspell-nl thunderbird-locale-nl
 
 
 # Install hardware-specific tools
