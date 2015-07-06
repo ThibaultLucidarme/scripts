@@ -71,7 +71,7 @@ apt-get install -y libreoffice-avmedia-backend-gstreamer libreoffice-calc libreo
 
 
 # Install graphical tools
-apt-get install -y argyll blender calibre darktable gimp gimp-data-extras gnome-color-manager icc-profiles-free imagemagick inkscape kazam krita perlmagick scribus scribus-template
+apt-get install -y argyll blender calibre darktable gimp gimp-data-extras gimp-plugin-registry gnome-color-manager gthumb icc-profiles-free imagemagick inkscape kazam krita perlmagick scribus scribus-template
 
 
 # Install Usenet
